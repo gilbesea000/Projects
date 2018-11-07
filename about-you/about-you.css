@@ -1,0 +1,50 @@
+html{
+
+    background: linear-gradient(to top,#ff2f00, #ff8512, #ffd992);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    text-align: justify;
+}
+
+p{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px 75px 25px 75px;
+    margin: 100px;
+    background: linear-gradient(to left, #ff2f00, #ff953e)
+}
+
+section{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px 75px 25px 75px;
+    margin: 100px;
+    background: linear-gradient(to left, #0077ff, #3ec2ffea);
+}
+
+article{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px 75px 25px 75px;
+    margin: 100px;
+    background: linear-gradient(to left, #19ff2c, #0bc52a);
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px 50px 15px 50px;
+    margin: 100px;
+    background: linear-gradient(to left, #e000c2, #ff1a53)
+}
