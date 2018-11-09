@@ -13,7 +13,7 @@
     <body>
         <!-- Create a navbar with the links displaying via the dropdown icon for small displays and horizontally for any other size display. The navbar should also contain the snith picture as the brand logo which links to the top of the page (i.e. refreshes the page). If you have questions, refer to the pictures navbar and navbar-small -->
         
-        <nav class="navbar navbar-expand-sm bg-dark fixed-top">
+        <nav class="navbar navbar-expand-sm bg-dark fixed-top navbar-small">
             <a class="navbar-brand" href="quidditch.html" >
                 <img src="https://jlaw21.github.io/Resources/snitch.png" alt="The Snitch" width=50px>
             </a>
@@ -94,27 +94,27 @@
                     <p> There are three goal posts at either ends of a field. That field is called a Quidditch pitch. There are seven players on each side: the Keeper, the Seeker, three Chasers and two Beaters. One player is also appointed as the Captain. Professional teams will also have a manager.</p>
                 </article>
                 <article class="tab-pane container fade" id='q-roles'>
-                    <ul >
-                        <li ><button class='btn btn-primary'>Chasers</button></li>
-                        <p id='desc-chasers'>The Chasers pass the Quaffle trying to throw it through one of the three hoops.</p>
-                        <li ><button class='btn btn-primary' >Keeper</button></li>
-                        <p id='desc-keeper'>The Keeper is responsible for keeping the Quaffle from going through the hoops, similar to a Goalie in soccer.</p>
-                        <li ><button class='btn btn-primary ' >Beaters</button></li>
-                        <p id='desc-beaters' >The Beaters are equipped with large clubs, used to smack the Bludgers around, attempting to disrupt the Chasers from getting a goal.</p>
-                        <li ><button class='btn btn-primary ' >Seeker</button></li>
-                        <p id='desc-seeker' >The Seeker tries to catch the Golden Snitch, and in doing so, ends the game.</p>
+                    <ul style="list-style-type:none">
+                        <li ><button data-toggle="collapse" data-target="#desc-chasers" class='btn btn-primary'>Chasers</button></li>
+                        <p id='desc-chasers' class="collapse">The Chasers pass the Quaffle trying to throw it through one of the three hoops.</p>
+                        <li ><button data-toggle="collapse" class='btn btn-primary'data-target="#desc-keeper" >Keeper</button></li>
+                        <p id='desc-keeper'class="collapse">The Keeper is responsible for keeping the Quaffle from going through the hoops, similar to a Goalie in soccer.</p>
+                        <li ><button data-toggle="collapse" class='btn btn-primary' data-target="#desc-beaters" >Beaters</button></li>
+                        <p id='desc-beaters' class="collapse">The Beaters are equipped with large clubs, used to smack the Bludgers around, attempting to disrupt the Chasers from getting a goal.</p>
+                        <li ><button data-toggle="collapse" class='btn btn-primary ' data-target="#desc-seeker" >Seeker</button></li>
+                        <p id='desc-seeker' class="collapse">The Seeker tries to catch the Golden Snitch, and in doing so, ends the game.</p>
                     </ul>
                 </article>
                 <article class="tab-pane container fade" id='q-balls'>
                     <ul >
-                        <li ><button class='btn btn-primary '>Quaffle</button></li>
+                        <li ><button class='btn btn-primary' data-toggle="collapse" data-target="#desc-quaffle">Quaffle</button></li>
                         
-                        <li><button class='btn btn-primary'  >Bludgers</button></li>
+                        <li><button class='btn btn-primary' data-toggle="collapse" data-target="#desc-bludger">Bludgers</button></li>
                         
-                        <li ><button class='btn btn-primary ' >Golden Snitch</button></li>
-                        <p id='desc-quaffle' >A round red seamless leather ball, 12 inches in diameter – that is, about the size of a Muggle football. The Quaffle is the ball with which Chasers score goals, and due to the nature of the game must be caught and thrown one-handed, since the player must at the same time control his or her broomstick. </p>
-                        <p id='desc-bludger'>A Bludger is a round jet-black iron ball, 10 inches in diameter – that is, slightly smaller than a Quaffle. Two Bludgers are used and they attempt to unseat the player nearest to them. Beaters used clubs to hit the Bludgers towards opposing player to unseat them.</p>
-                        <p id='desc-snitch'>The Golden Snitch, commonly referred to as a Snitch, is the smallest and fastest ball in the game. </p>                        
+                        <li ><button class='btn btn-primary' data-toggle="collapse" data-target="#desc-snitch">Golden Snitch</button></li>
+                        <p id='desc-quaffle'class="collapse" >A round red seamless leather ball, 12 inches in diameter – that is, about the size of a Muggle football. The Quaffle is the ball with which Chasers score goals, and due to the nature of the game must be caught and thrown one-handed, since the player must at the same time control his or her broomstick. </p>
+                        <p id='desc-bludger'class="collapse" >A Bludger is a round jet-black iron ball, 10 inches in diameter – that is, slightly smaller than a Quaffle. Two Bludgers are used and they attempt to unseat the player nearest to them. Beaters used clubs to hit the Bludgers towards opposing player to unseat them.</p>
+                        <p id='desc-snitch'class="collapse" >The Golden Snitch, commonly referred to as a Snitch, is the smallest and fastest ball in the game. </p>                        
                     </ul>
                 </article>
                 <article class="tab-pane container fade" id='q-scoring'>
